@@ -3,12 +3,18 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "test":"npx cucumber-js --require ./steps/*.js --tags @Login --publish"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "@playwright/test": "^1.40.1",
     "@types/node": "^20.11.0"
+  },
+  "dependencies": {
+    "@cucumber/cucumber": "^10.2.1",
+    "dotenv": "^16.3.1"
   }
 }
