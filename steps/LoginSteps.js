@@ -12,7 +12,7 @@ When('User enter username',async()=>{
 })
 
 
-When('User enter password',async()=>{
+When('User enter Password',async()=>{
     await Lp.enterPassword();
 })
 
@@ -21,7 +21,7 @@ When('User clicks on login button',async()=>{
     await Lp.clickLoginBtn();
 })
 
-Then('User Verify Title',async()=>{
+Then('User verifies Title',async()=>{
  await Lp.verifyTitle();    
 }
 )
